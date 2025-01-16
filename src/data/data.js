@@ -37,3 +37,33 @@ export const educationData = [
     "https://ivgsiwtdnayirmsiauza.supabase.co/storage/v1/object/public/Portifolio/me%20therap%202.jpeg",
   ];
   
+export const projects = [
+  {
+    id:1,
+    name: "PetPalok",
+    description: "A pet community web app where pet owners can connect with each other, along with sellers and veterinarians.",
+    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    badges: [
+      { label: "GitHub", link: "https://github.com/project-one" },
+      { label: "Demo", link: "https://demo.project-one.com" },
+    ],
+  },
+  {id:2,
+    name: "Project Two",
+    description: "This is a brief description of Project Two.",
+    image: "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
+    badges: [
+      { label: "GitHub", link: "https://github.com/project-two" },
+      { label: "Demo", link: "https://demo.project-two.com" },
+    ],
+  },
+  {id:3,
+    name: "Project Three",
+    description: "This is a brief description of Project Three.",
+    image: "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
+    badges: [
+      { label: "GitHub", link: "https://github.com/project-three" },
+      { label: "Demo", link: "https://demo.project-three.com" },
+    ],
+  },
+];
